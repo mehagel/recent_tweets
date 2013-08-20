@@ -1,0 +1,18 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+#spinner {
+     position: fixed; /* forces the element to stay fixed in relation to the viewport */
+    top: 15%; /* sets the top of the image 50% of the page height */
+    left: 50%; /* sets the left side of the image 50% across the page */
+    margin-left: -100px; /* moves the image half of its own width to the left-side of the page */
+    margin-top: -93px; /* moves the image half its height 'up' the page */
+    box-shadow: 0.5em 0.5em 0.7em #333; 
+  }
